@@ -1,0 +1,225 @@
+*{
+    scroll-behavior: smooth;
+    scroll-margin-top: 130px;
+}
+.header{
+    list-style: none;
+    background-color: gray;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+.header ul li{
+    display: inline-block;
+    /*padding: 18px 70px; */
+    font-weight: bolder;
+}
+.header ul li a:hover{
+    background-color: white;
+    color: black;
+
+}
+a{
+    padding: 10px 50px ;
+    text-align: center;
+    align-items: center;
+}
+#heading{
+   background-image: url(../img/img1.jpg);
+   padding-bottom: 600px;
+   overflow: hidden;
+   margin-top: 40px;
+   padding-left: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   color: white;
+   padding-top: 10px;
+   font-size: 65px;
+}
+#TeamMembers{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#images{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 30px;
+}
+#images::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.img{
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+#AboutUS{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#leftsidebar{
+    float: left;
+    border: 1px;
+    width: 50%;
+    height: 560px;
+    background-color: gray;
+}
+#p1{
+    padding-left: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Project1{
+    background-image: url(../img/img6.jpg);
+    height: 180px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Project2{
+    background-image: url(../img/img7.jpeg);
+    height: 180px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Project3{
+    background-image: url(../img/img8.jpg);
+    height: 180px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#rightsidebar{
+    float: right;
+    width: 49%;
+}
+#TechnologyUsed{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 40%;
+}
+.box{
+    width: 270px;
+    height: 350px;
+    border: 1px solid white;
+    padding: 20px;
+    padding-right: 10px;
+    border-radius: 5%;
+    background-color:lightgrey;
+    float: left;
+    margin: 10px;
+}
+#img1{
+    width: 255px;
+    border-radius: 5%;
+}
+#img2{
+    width: 255px;
+    border-radius: 5%;
+    height: 47%;
+}
+#img3{
+    width: 255px;
+    border-radius: 5%;
+    height: 47%;
+}
+#img4{
+    width: 255px;
+    border-radius: 5%;
+    height: 47%;
+}
+#boxes p{
+    width: 270px;
+    height: 100px;
+    margin-bottom: 1px;
+}
+ .box a{
+   color: white;
+   background-color: red;
+   text-decoration: none;
+   text-align: center;
+   display: block;
+   margin-top: auto;
+   margin-right: 5px;
+   margin-bottom: auto;
+   margin-left: 0.1px;
+   padding: 10px;
+   border-radius: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#boxes a:hover{
+    background-color: blue;
+}
+#boxes{
+    align-items: center;
+    justify-content: center;
+}
+#footer {
+    background-color: palevioletred;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#template {
+    order: 1;
+    font-size: 20px;
+    color: black;
+}
+
+#back {
+    margin-top: 15px;
+    font-size: 20px;
+     order: 2;
+}
+#Contact{
+    text-align: center;
+    margin-top: 580px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.image{
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pages{
+    color: white;
+    background-color: grey;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+}
